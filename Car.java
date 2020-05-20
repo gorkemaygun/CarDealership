@@ -4,8 +4,8 @@ public class Car extends Vehicle {
     // Simple Car constructor inheriting all of the methods and properties of
     // Vehicle
     public Car(String VIN, double wholesaleCost, double retailPrice, int modelYear, String make, String model,
-            String color) {
-        super(VIN, wholesaleCost, retailPrice, modelYear, make, model, color);
+            String color, VehicleClassification vehicleClass) {
+        super(VIN, wholesaleCost, retailPrice, modelYear, make, model, color, vehicleClass);
     }
 
     @Override
